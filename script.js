@@ -1,8 +1,8 @@
 // [추가] CSV 데이터를 로드하는 공통 함수
 function loadCSVData(callback) {
     const files = [
-        { path: '/data/data_short_worse.csv', exposure: '단기', condition: '악화' },
-        { path: '/data/data_short_occur.csv', exposure: '단기', condition: '발생' }
+        { path: '/Air-Report/data/data_short_worse.csv', exposure: '단기', condition: '악화' },
+        { path: '/Air-Report/data/data_short_occur.csv', exposure: '단기', condition: '발생' }
     ];
 
     Promise.all(
